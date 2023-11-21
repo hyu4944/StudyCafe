@@ -1,0 +1,275 @@
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+
+
+body{
+    font-family: 'Pretendard';
+}
+
+
+
+#wrap{
+    width: 100%;
+}
+
+section, footer{
+    width: 100%;
+    position: relative;
+}
+
+
+.section__inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 160px 0 140px 0;
+}
+
+.notice_inner{
+    padding: 105px 0 110px 0;
+}
+
+
+.text_green{
+    color: #008D39;
+}
+
+
+.sectionMineText{
+    color: #008D39;
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.sectionSideText{
+    font-size: 50px;
+    font-weight: 900;
+    color: #151515;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+.section03_text01{
+    font-size: 30px;
+    color: #BBBBBB;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.section03_text02{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+
+.section03_text03{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 90px;
+}
+
+
+.section03_btn{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #4D4D4D;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+#mine_textB_m{
+    display: none;
+}
+
+#section02_textB_m, #section02_textS_m, #section03_text04_m ,
+ #section04_imgLeft>img:nth-child(2),  #section04_imgRight_top>img:nth-child(2),
+#section04_imgRight_bottom>img:nth-child(2),.icon_box_text_m, .footer_bootom_text_m 
+{
+    display: none;
+}
+
+
+
+@media (max-width: 1920px){
+    .section__inner, #in_footer{
+        width: 80%;
+        
+    }
+
+    #in_header{
+        width: 85%;
+    }
+
+
+
+}
+
+
+@media (max-width: 1599px){
+
+    .sectionMineText{
+        font-size: 2vw;
+    }
+
+
+    .sectionSideText{
+        font-size: 3.3vw;
+    }
+
+    .section__inner{
+        padding: 10vw 0 10vw 0;
+    }
+
+}
+
+/* media 1599 end */
+
+
+@media (max-width: 1024px){
+
+    #in_header, .section__inner, #in_footer{
+        width: 95%;
+    }
+
+    #section03_textBox{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .sectionMineText, .sectionSideText{
+        width: 95%;
+        text-align: left;
+    }
+
+    .sectionMineText{
+        font-size: 24px;
+    }
+
+    .sectionSideText{
+        font-size: 34px;
+    }
+
+
+    .notice_inner{
+        width: 100%;
+        padding: 80px 0 0 0;
+    }
+
+   
+   
+}
+
+/* media 1024 end */
+
+
+@media (max-width: 690px){
+
+
+
+    #mine_textB, #section02_textS, #section02_textB,#section03_text04, .icon_box_text
+    /* #section04_imgLeft>img:nth-child(1), #section04_imgRight_top>img:nth-child(1), #section04_imgRight_bottom>img:nth-child(1) */
+    {
+        display: none;
+    }
+
+    
+
+    .section_03_inner{
+        width: 100%;
+    }
+
+    #section03_textBox02{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #mine_textB_m{
+        display: block;
+        font-size: 38px;
+        font-weight: 200;
+        color: #F8F8F8;
+        text-align: center;
+        margin-top: 13px;
+    }
+
+    #section02_textB_m{
+    display: block;
+    font-size: 30px;
+    font-family: 'NanumMyeongjoBold';
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    }
+
+    #section02_textS_m{
+        display: block;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 23px;
+    }
+
+    #section03_text04_m{
+        display: block;
+        font-size: 20px;
+        letter-spacing: -0.5px;
+    }
+
+    .icon_box_text_m{
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+/* 
+    #section04_imgLeft>img:nth-child(2),  #section04_imgRight_top>img:nth-child(2),
+    #section04_imgRight_bottom>img:nth-child(2){
+        display:  block;
+        
+    }
+
+    #section04_imgBox{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    
+
+}
+
+
+@media (max-width: 450px){
+
+    #footer_bottom_top>p:nth-child(2){
+        display: none;
+    }
+
+    .footer_bootom_text_m{
+        display: block;
+        color: #F8F8F8;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+}
